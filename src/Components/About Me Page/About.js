@@ -18,8 +18,8 @@ function About() {
           Hello! My name is Jatin Devnani and I am a Bootcamp graduate
           from {" "}
           <span className="about__specialText">Masai School, Bengaluru.</span>{" "}
-          I am very interested in{" "}
-          <span className="about__specialText">Backend development</span>,
+          I am a highly passionate{" "}
+          <span className="about__specialText">Backend developer who loves</span>,
           creating APIs, and working with databases. As well, I am extremely
           interested in creating elegant solutions, more specifically on<span className="about__specialText"> System Design </span> and <span className="about__specialText">High performance solutions.</span>
         </p>
@@ -30,7 +30,86 @@ function About() {
             contact
           </NavHashLink>{" "}
           page
+    
         </p>
+        <br>
+</br>
+<br>
+</br>
+<br>
+</br>
+<br>
+</br>
+
+      <div className="techstackMarginBox">
+        <img
+        className="techstackMargin"
+        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg"
+        alt="Brand Logo"
+        width="60"
+        height="60"
+      />
+         <img
+        className="techstackMargin"
+        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
+        alt="Brand Logo"
+        width="60"
+        height="60"
+      />
+         <img
+        className="techstackMargin"
+        src="https://design.jboss.org/hibernate/logo/final/hibernate_logo_whitebkg_stacked_256px.gif"
+        alt="Brand Logo"
+        width="60"
+        height="60"
+      />
+      <img
+        className="techstackMargin"
+        src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg"
+        alt="Brand Logo"
+        width="60"
+        height="60"
+      />
+         <img
+        className="techstackMargin"
+        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg"
+        alt="Brand Logo"
+        width="60"
+        height="60"
+      />
+         <img
+        className="techstackMargin"
+        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg"
+        alt="Brand Logo"
+        width="60"
+        height="60"
+      />
+
+<img
+        className="techstackMargin"
+        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"
+        alt="Brand Logo"
+        width="60"
+        height="60"
+      />
+
+<img
+        className="techstackMargin"
+        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg"
+        alt="Brand Logo"
+        width="60"
+        height="60"
+      />
+
+<img
+        className="techstackMargin"
+        src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png"
+        alt="Brand Logo"
+        width="60"
+        height="60"
+      />
+        </div>
+        <div></div>
       </div>
       <img
         className="about__headshot"
@@ -39,6 +118,8 @@ function About() {
         width="300"
         height="300"
       />
+      
+      
       <LightWave />
     </section>
   );
