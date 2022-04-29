@@ -2,6 +2,7 @@ import { FaGithub } from "react-icons/fa";
 import DarkWave from "../Waves/DarkWave";
 import "./ProjectLight.css";
 import { useMediaQuery } from "react-responsive";
+import "./ProjectLight.css";
 
 function Project1({ id }) {
   const isDesktopOrLaptop = useMediaQuery({
@@ -10,30 +11,31 @@ function Project1({ id }) {
 
   return (
     <article id={id} className="project light">
+      <h2 className="project__header">Projects</h2>
       <div className="project__main">
-        <img
+        {/* <img
           className="project__image project__specialMobileImage"
           src="/images/health_fusion_home.png"
           alt="Health Fusion Project Home Page"
           width="15%"
           height="auto"
           loading="lazy"
-        />
+        /> */}
         {isDesktopOrLaptop ? (
           <>
-            <img
+            {/* <img
               className="project__image"
               src="/images/health_fusion_add.png"
               alt="Health Fusion Map Page"
               width="15%"
               height="auto"
               loading="lazy"
-            />
+            /> */}
             <img
               className="project__image"
-              src="/images/health_fusion_map.png"
+              src="/images/myntra.png"
               alt="Health Fusion Project Add Page"
-              width="15%"
+              width="50%"
               height="auto"
               loading="lazy"
             />
@@ -43,27 +45,21 @@ function Project1({ id }) {
         )}
 
         <div data-aos="fade-left" className="project__right">
-          <h3 className="project__title">Health Fusion</h3>
+          <h3 className="project__title">Myntra Clone</h3>
           <p className="project__description project__body">
-            A <span className="project__specialText">mobile app</span> built to
-            help manage life. Allows users to{" "}
+          Myntra is a <span className="project__specialText"> one stop shop</span> for all your fashion and lifestyle needs.{" "}
             <span className="project__specialText">
-              manage all of their medications
+            Being India's largest e-commerce store  
             </span>
-            , with an intuitive add button combined with a simple home screen to
-            checkoff all medications. An enjoyable{" "}
-            <span className="project__specialText">calendar view</span> is
-            available for all users so they can view their{" "}
-            <span className="project__specialText">medication history</span>
-            from the past or look to the future and see what they need to take.
-            Finally, users are also given a{" "}
-            <span className="project__specialText">map view</span> so that they
-            have no problem finding any nearby pharmacies or hostiptals if
-            needed.
+             {" "} and enjoyable shopping experience to shoppers across the country with the widest range of brands and products on its portal.{" "}
+            <span className="project__specialText">The brand is </span> making a conscious effort to bring the power of {" "}
+            <span className="project__specialText">fashion to shoppers with </span>
+            an array of the latest and trendiest products{" "}
+            <span className="project__specialText">available in the country.</span>
+            {"\n"}Cloned it with a team of 4 members executed in 5 days!
           </p>
           <p className="project__tech project__body">
-            &gt; React Native · Firebase · Firestore · Google Maps API · Google
-            Autocomplete API
+            &gt; Javascript · Bootstrap · CSS · HTML 
           </p>
           <a
             className="project__sourceCode"
@@ -74,6 +70,15 @@ function Project1({ id }) {
           >
             <FaGithub className="project__githubLogo" size={25} />
             <h3 className="project__sourceCodeText">Source Code</h3>
+          </a>
+          <a
+            className="project__sourceCode"
+            href="https://github.com/jackparsonss/health-fusion"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="=Website GitHub Repository"
+          >
+            <h3 className="project__sourceCodeText">Live Demo</h3>
           </a>
         </div>
       </div>

@@ -6,7 +6,7 @@ function LeftSocialMediaIcons() {
     <div className="leftSocialMediaIcons">
       <hr className="leftSocialMediaIcons__mobileLeftBar mobile__hr" />
       <a
-        href="https://github.com/jackparsonss"
+        href="https://github.com/jatindevnani"
         target="_blank"
         rel="noopener noreferrer"
         aria-label="my GitHub"
@@ -14,7 +14,7 @@ function LeftSocialMediaIcons() {
         <FaGithub className="leftSocialMediaIcons__github icon" size={30} />
       </a>
       <a
-        href="https://www.linkedin.com/in/jack-parsonss/"
+        href="https://www.linkedin.com/in/jatin-devnani/"
         target="_blank"
         rel="noopener noreferrer"
         aria-label="my Linkedin"
@@ -22,7 +22,7 @@ function LeftSocialMediaIcons() {
         <FaLinkedin className="leftSocialMediaIcons__linkedin icon" size={30} />
       </a>
       <a
-        href="https://www.instagram.com/jack.par/"
+        href="https://www.instagram.com/uptown_funnk/"
         target="_blank"
         rel="noopener noreferrer"
         aria-label="my Instagram"
@@ -33,7 +33,7 @@ function LeftSocialMediaIcons() {
         />
       </a>
       <a
-        href="https://twitter.com/jackparsonss"
+        href="https://twitter.com/jatindevnani123"
         target="_blank"
         rel="noopener noreferrer"
         aria-label="my Twitter"

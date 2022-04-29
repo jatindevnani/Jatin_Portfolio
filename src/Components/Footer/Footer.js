@@ -8,7 +8,7 @@ function Footer() {
     <footer className="footer">
       <SocialMediaIcons />
       <Logo />
-      <p className="footer__copyright">Copyright © 2021 Jack Parsons.</p>
+      <p className="footer__copyright">Copyright © 2022 Jatin Devnani.</p>
       <SourceCodeLink />
     </footer>
   );
