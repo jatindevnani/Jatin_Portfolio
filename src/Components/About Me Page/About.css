@@ -66,9 +66,12 @@
   }
 }
 .techstackMargin{
-  margin-right: 10px;
+  margin-right: 30px;
   /* border: 2px solid yellow; */
 }
 .techstackMarginBox{
+  width: 60%;
+  height: 30%;
   display:flex;
 }
+

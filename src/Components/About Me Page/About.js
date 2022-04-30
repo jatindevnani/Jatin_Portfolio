@@ -14,14 +14,16 @@ function About() {
     <section id="about" className="about">
       <div data-aos="fade-right" className="about__text">
         <h2 className="about__heading">About Me</h2>
+        <br>
+</br>
         <p className="about__body">
           Hello! My name is Jatin Devnani and I am a Bootcamp graduate
           from {" "}
           <span className="about__specialText">Masai School, Bengaluru.</span>{" "}
           I am a highly passionate{" "}
           <span className="about__specialText">Backend developer who loves</span>,
-          creating APIs, and working with databases. As well, I am extremely
-          interested in creating elegant solutions, more specifically on<span className="about__specialText"> System Design </span> and <span className="about__specialText">High performance solutions.</span>
+          creating APIs, and working with databases. I am also extremely
+          interested in creating elegant solutions, more specifically on<span className="about__specialText"> System Design </span> and <span className="about__specialText">High performaning solutions.</span>
         </p>
         <br />
         <p className="about__body">
@@ -38,76 +40,90 @@ function About() {
 </br>
 <br>
 </br>
+
+<h2 className="about__heading">My Skills</h2>
 <br>
 </br>
-
       <div className="techstackMarginBox">
+        <a href="https://www.java.com/">
         <img
+        href="www.google.com"
         className="techstackMargin"
         src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg"
         alt="Brand Logo"
         width="60"
         height="60"
       />
-         <img
+        </a>
+        
+        
+        <a href="https://www.javascript.com/"> <img
         className="techstackMargin"
         src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
         alt="Brand Logo"
         width="60"
         height="60"
-      />
-         <img
+      /></a>
+        
+        <a href="https://hibernate.org/"> <img
         className="techstackMargin"
         src="https://design.jboss.org/hibernate/logo/final/hibernate_logo_whitebkg_stacked_256px.gif"
         alt="Brand Logo"
         width="60"
         height="60"
-      />
-      <img
+      /></a>
+        
+       <a href="https://spring.io/"><img
         className="techstackMargin"
         src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg"
         alt="Brand Logo"
         width="60"
         height="60"
-      />
-         <img
+      /></a> 
+      
+        <a href="https://www.mysql.com/"><img
         className="techstackMargin"
         src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg"
         alt="Brand Logo"
         width="60"
         height="60"
-      />
-         <img
+      /></a>
+         
+         <a href="https://www.w3.org/Style/CSS/Overview.en.html"><img
         className="techstackMargin"
         src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg"
         alt="Brand Logo"
         width="60"
         height="60"
-      />
+      /></a>
+         
 
-<img
+<a href="https://html.com/"><img
         className="techstackMargin"
         src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"
         alt="Brand Logo"
         width="60"
         height="60"
-      />
+      /></a>
 
-<img
+
+<a href="https://getbootstrap.com/"><img
         className="techstackMargin"
         src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg"
         alt="Brand Logo"
         width="60"
         height="60"
-      />
+      /></a>
 
-<img
+
+<a href="https://git-scm.com/"><img
         className="techstackMargin"
         src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png"
         alt="Brand Logo"
         width="60"
         height="60"
-      />
+      /></a>
+
         </div>
         <div></div>
       </div>
