@@ -63,7 +63,7 @@ function Project1({ id }) {
           </p>
           <a
             className="project__sourceCode"
-            href="https://myntra-x1.netlify.app/"
+            href="https://github.com/jatindevnani/Myntra-clone"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="=Website GitHub Repository"
@@ -73,7 +73,7 @@ function Project1({ id }) {
           </a>
           <a
             className="project__sourceCode"
-            href="https://github.com/jatindevnani/Myntra-clone"
+            href="https://myntra-x1.netlify.app/"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="=Website GitHub Repository"
